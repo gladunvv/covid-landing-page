@@ -1,0 +1,32 @@
+.stay-at-home {
+  display: flex;
+  justify-content: space-between;
+  &__text {
+    text-transform: capitalize;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 24px;
+    width: 440px;
+    font-family: Jost;
+  }
+
+  &__img {
+    width: 800px;
+  }
+}
+
+.header__title {
+  font-family: RedHatDisplay;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  color: #4b4f51;
+  &-orange {
+    font-size: 19px;
+    color: #fa5652;
+  }
+}
+
+.covid-alert {
+    margin-top: 35px;
+}

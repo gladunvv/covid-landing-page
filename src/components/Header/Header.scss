@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  &__logo {
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__menu {
+    font-family: Jost;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-right: 150px;
+    .tab {
+      margin-right: 45px;
+      transition: 0.3s;
+      list-style: none;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &:hover {
+        cursor: pointer;
+        color: #fa5652;
+      }
+    }
+  }
+}
+
+.covid-header {
+  margin-top: 35px;
+}
+
+.logo {
+  &__text {
+    font-family: RedHatDisplay;
+    font-weight: bold;
+    font-size: 19px;
+    color: #035755;
+    margin-left: 10px;
+  }
+}

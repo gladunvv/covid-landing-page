@@ -1,0 +1,9 @@
+@font-face {
+  font-family: RedHatDisplay;
+  src: url('./static/fonts/RedHatDisplay-Bold.ttf');
+}
+
+@font-face {
+  font-family: Jost;
+  src: url('./static/fonts/Jost-VariableFont_wght.ttf');
+}
