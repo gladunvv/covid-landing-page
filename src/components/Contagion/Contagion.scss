@@ -1,0 +1,47 @@
+.contagion {
+  &__text {
+    display: flex;
+    justify-content: center;
+
+    .title {
+      text-align: center;
+    }
+  }
+  .contagion-cards {
+    display: flex;
+    justify-content: center;
+  }
+  .card {
+    width: 410px;
+    height: 525px;
+    margin-right: 30px;
+    border-radius: 7px;
+    box-shadow: 6px 7px 20px 1px #797b7c;
+
+    &__img {
+      height: 249px;
+      margin-top: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &__text {
+      margin-top: 35px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      font-family: Jost;
+      font-size: 21px;
+      color: #4b4f51;
+
+      &-bold {
+        margin-bottom: 20px;
+        font-weight: bold;
+        font-size: 36px;
+      }
+    }
+  }
+}

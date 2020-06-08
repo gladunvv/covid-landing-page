@@ -9,8 +9,8 @@ export const CovidAlert = ({ position }) => {
     <>
       <div className={alertClass}>
         <div className='stay-at-home__text'>
-          <h2 className='header__title'>
-            <span className='header__title-orange'>COVID-19 Alert</span> <br />
+          <h2 className='title'>
+            <span className='title-orange'>COVID-19 Alert</span> <br />
             Stay at Home quarantine <br /> To stop Corona virus
           </h2>
           <p>
