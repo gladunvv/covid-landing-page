@@ -2,9 +2,11 @@ import React from 'react';
 import { Header } from '../Header';
 import { CovidAlert } from '../CovidAlert';
 import { WhatIsCovid } from '../WhatIsCovid';
+import { Contagion } from '../Contagion';
+import { Symptomps } from '../Symptomps';
+import { WhatShouldDo } from '../WhatShouldDo';
 
 import './App.scss';
-import { Contagion } from '../Contagion';
 
 export const App = () => {
   return (
@@ -12,7 +14,9 @@ export const App = () => {
       <Header position />
       <CovidAlert position />
       <WhatIsCovid />
-      <Contagion />
+      <Contagion position />
+      <Symptomps />
+      <WhatShouldDo />
     </>
   );
 };

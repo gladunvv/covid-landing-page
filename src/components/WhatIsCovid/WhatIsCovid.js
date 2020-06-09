@@ -13,8 +13,8 @@ export const WhatIsCovid = () => {
         />
         <div className='what-is-covid__text'>
           <h2 className='title'>
-            <span className='title-orange'>What Is Covid-19</span> <br />
-            Coronavirus
+            <span className='title-orange'>What is Covid-19</span> <br />
+            Коронавирус
           </h2>
           <p>
             Corona viruses are a type of virus. There are many different kinds,

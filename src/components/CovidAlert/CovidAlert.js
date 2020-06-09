@@ -11,7 +11,7 @@ export const CovidAlert = ({ position }) => {
         <div className='stay-at-home__text'>
           <h2 className='title'>
             <span className='title-orange'>COVID-19 Alert</span> <br />
-            Stay at Home quarantine <br /> To stop Corona virus
+            Соблюдайте карантин <br /> Чтобы остановить коронавирус
           </h2>
           <p>
             There is no specific medicine to prevent or treat coronavirus
