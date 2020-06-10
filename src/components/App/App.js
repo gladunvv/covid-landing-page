@@ -15,8 +15,8 @@ export const App = () => {
       <CovidAlert position />
       <WhatIsCovid />
       <Contagion position />
-      <Symptomps />
-      <WhatShouldDo />
+      <Symptomps position />
+      <WhatShouldDo />s
     </>
   );
 };
