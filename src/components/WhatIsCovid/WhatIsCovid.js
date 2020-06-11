@@ -1,11 +1,16 @@
 import React from 'react';
+import className from 'classnames';
+import { bool } from 'prop-types';
 
 import './WhatIsCovid.scss';
 
-export const WhatIsCovid = () => {
+export const WhatIsCovid = ({ position }) => {
+  const WhatIsClass = className('what-is-covid', {
+    'what-is-position': position,
+  });
   return (
     <>
-      <div className='what-is-covid'>
+      <div className={WhatIsClass}>
         <img
           className='what-is-covid__img'
           src='static/img/corona_cloud.png'
@@ -27,4 +32,8 @@ export const WhatIsCovid = () => {
       </div>
     </>
   );
+};
+
+WhatIsCovid.propTypes = {
+  position: bool,
 };

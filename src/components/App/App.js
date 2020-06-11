@@ -5,6 +5,7 @@ import { WhatIsCovid } from '../WhatIsCovid';
 import { Contagion } from '../Contagion';
 import { Symptomps } from '../Symptomps';
 import { WhatShouldDo } from '../WhatShouldDo';
+import { Help } from '../Help';
 
 import './App.scss';
 
@@ -16,7 +17,8 @@ export const App = () => {
       <WhatIsCovid />
       <Contagion position />
       <Symptomps position />
-      <WhatShouldDo />s
+      <WhatShouldDo />
+      <Help />
     </>
   );
 };

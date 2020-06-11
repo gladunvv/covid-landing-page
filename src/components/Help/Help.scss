@@ -1,0 +1,50 @@
+.help {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  &__title {
+      .title {
+          color: #167C51;
+      }
+  }
+  
+  &-sub {
+      display: flex;
+  }
+
+  &__post {
+    height: 50px;
+    width: 430px;
+    border: solid 1px #ccc;
+    box-shadow: 1px 1px 6px rgb(99, 98, 98);
+    border-radius: 30px;
+
+    margin-right: 20px;
+
+    .email-input {
+      font-family: RedHatDisplay;
+      font-size: 21px;
+      background-color: inherit;
+      margin-top: 5px;
+      width: 400px;
+      height: 38px;
+      border: none;
+      outline: none;
+    }
+  }
+
+  &__button {
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background: inherit;
+    font-family: RedHatDisplay;
+    color: #ffffff;
+    background: #F44A45;
+    font-size: 17px;
+    outline: none; 
+  }
+}
