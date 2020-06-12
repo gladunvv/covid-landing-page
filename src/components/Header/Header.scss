@@ -3,7 +3,6 @@
   justify-content: space-between;
 
   &__logo {
-    margin-left: 100px;
     display: flex;
     align-items: center;
   }
@@ -13,7 +12,7 @@
     display: flex;
     align-items: center;
     font-size: 18px;
-    margin-right: 150px;
+    
     .tab {
       margin-right: 45px;
       transition: 0.3s;

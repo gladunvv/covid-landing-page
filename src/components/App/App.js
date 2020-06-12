@@ -6,19 +6,23 @@ import { Contagion } from '../Contagion';
 import { Symptomps } from '../Symptomps';
 import { WhatShouldDo } from '../WhatShouldDo';
 import { Help } from '../Help';
+import { Footer } from '../Footer';
 
 import './App.scss';
 
 export const App = () => {
   return (
     <>
-      <Header position />
-      <CovidAlert position />
-      <WhatIsCovid />
-      <Contagion position />
-      <Symptomps position />
-      <WhatShouldDo />
-      <Help />
+      <div className='content'>
+        <Header position />
+        <CovidAlert position />
+        <WhatIsCovid />
+        <Contagion position />
+        <Symptomps position />
+        <WhatShouldDo />
+        <Help position />
+        <Footer />
+      </div>
     </>
   );
 };

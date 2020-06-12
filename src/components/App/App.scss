@@ -1,11 +1,16 @@
 .title {
-    font-family: RedHatDisplay;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 39px;
-    color: #4b4f51;
-    &-orange {
-      font-size: 21px;
-      color: #fa5652;
-    }
+  font-family: RedHatDisplay;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 39px;
+  color: #4b4f51;
+  &-orange {
+    font-size: 21px;
+    color: #fa5652;
   }
+}
+
+.content {
+  margin: 0 auto;
+  width: 1290px;
+}

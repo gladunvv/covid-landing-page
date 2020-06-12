@@ -1,0 +1,8 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    &__logo {
+        display: flex;
+        align-items: center;
+    }
+}

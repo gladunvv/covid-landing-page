@@ -20,7 +20,7 @@ export const CovidAlert = ({ position }) => {
         </div>
         <img
           className='stay-at-home__img'
-          src='static/img/girl_on_sofa.png'
+          src='static/img/Girl.png'
           alt='girl on sofa'
         />
       </div>

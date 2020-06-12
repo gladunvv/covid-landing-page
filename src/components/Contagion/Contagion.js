@@ -1,7 +1,7 @@
 import React from 'react';
 import className from 'classnames';
-import './Contagion.scss';
 import { bool } from 'prop-types';
+import './Contagion.scss';
 
 export const Contagion = ({ position }) => {
   const contagionClass = className('contagion', {
