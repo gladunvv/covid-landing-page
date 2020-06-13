@@ -1,10 +1,14 @@
 import React from 'react';
+import className from 'classnames';
+import { bool } from 'prop-types';
 
 import './Footer.scss';
-export const Footer = () => {
+
+export const Footer = ({ position }) => {
+  const footerClass = className('footer', { 'footer-position': position });
   return (
     <>
-      <div className='footer'>
+      <div className={footerClass}>
         <div className='footer__logo'>
           <img
             alt='covid-19'
@@ -13,7 +17,7 @@ export const Footer = () => {
           />
           <span className='logo__text'>covid-19</span>
         </div>
-        <ul className='header__menu'>
+        <ul className='footer__menu'>
           <li className='tab'>Overview</li>
           <li className='tab'>Contagion</li>
           <li className='tab'>Symptoms</li>
@@ -22,4 +26,8 @@ export const Footer = () => {
       </div>
     </>
   );
+};
+
+Footer.propTypes = {
+  position: bool,
 };

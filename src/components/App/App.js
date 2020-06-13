@@ -21,7 +21,7 @@ export const App = () => {
         <Symptomps position />
         <WhatShouldDo />
         <Help position />
-        <Footer />
+        <Footer position />
       </div>
     </>
   );
