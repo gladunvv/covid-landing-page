@@ -10,15 +10,15 @@
 
 @font-face {
   font-family: Bebas;
-  src: url(./static/fonts/BebasNeue-Bold.ttf);
+  src: url('./static/fonts/BebasNeue-Bold.ttf');
 }
 
 @font-face {
   font-family: Hero;
-  src: url(./static/fonts/Hero-Regular.ttf);
+  src: url('./static/fonts/Hero-Regular.ttf');
 }
 
 @font-face {
   font-family: HeroLight;
-  src: url(./static/fonts/Hero-Light.ttf);
+  src: url('./static/fonts/Hero-Light.ttf');
 }
