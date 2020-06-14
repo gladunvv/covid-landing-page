@@ -1,10 +1,17 @@
 .contagion {
   &__text {
+    font-family: Hero;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 21px;
 
     .title {
       text-align: center;
+    }
+    .text {
+      margin: 0 0 23px 0;      
     }
   }
   .contagion-cards {
@@ -17,9 +24,6 @@
     margin-right: 30px;
     border-radius: 7px;
     box-shadow: 1px 2px 10px 1px #cccccc;
-    // :hover {
-      
-    // }
 
     &:last-child {
       margin-right: 0;
@@ -34,18 +38,20 @@
     }
 
     &__text {
-      margin-top: 35px;
+      font-family: Hero;
+      margin: 35px auto;
       display: flex;
       flex-direction: column;
       justify-content: center;
       text-align: center;
       align-items: center;
-      font-family: Jost;
+ 
       font-size: 21px;
       color: #4b4f51;
-      width: 400px;
+      width: 370px;
 
       &-bold {
+        font-family: Bebas;
         margin-bottom: 20px;
         font-weight: bold;
         font-size: 36px;

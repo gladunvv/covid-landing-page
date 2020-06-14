@@ -22,11 +22,11 @@ export const WhatIsCovid = ({ position }) => {
             Коронавирус
           </h2>
           <p>
-            Corona viruses are a type of virus. There are many different kinds,
-            and some cause disease. A newly identified type has caused a recent
-            outbreak of respiratory illness now called COVID-19.Lauren Sauer,
-            M.S., the director of operations with the Johns Hopkins Office of
-            Critical Event Preparedness and Response
+            Болезнь, вызванная коронавирусной ‎инфекцией COVID-2019, – это
+            инфекционное ‎заболевание, вызванное новым, ранее ‎неизвестным
+            коронавирусом. ‎ У большинства заболевших COVID-19 ‎наблюдаются
+            легкие или умеренные ‎симптомы, выздоровление происходит без
+            ‎специфического лечения. ‎
           </p>
         </div>
       </div>

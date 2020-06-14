@@ -11,11 +11,12 @@ export const CovidAlert = ({ position }) => {
         <div className='stay-at-home__text'>
           <h2 className='title'>
             <span className='title-orange'>COVID-19 Alert</span> <br />
-            Соблюдайте карантин <br /> Чтобы остановить коронавирус
+            Соблюдайте режим самоизоляции <br /> Помогите остановить коронавирус
           </h2>
           <p>
-            There is no specific medicine to prevent or treat coronavirus
-            disease (COVID-19). People may need supportive care to .
+            Самоизоляция является вынужденной мерой, чтобы замедлить
+            распространение инфекции и уменьшить количество заболевших. Это
+            отличная мера профилактики в условиях отсутствия вакцины.
           </p>
         </div>
         <img

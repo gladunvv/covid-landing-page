@@ -9,11 +9,12 @@ export const WhatShouldDo = () => {
         <div className='what-should-do__text'>
           <h2 className='title'>
             <span className='title-orange'>Covid-19 </span> <br />
-            What should we do
+            Как себя обезопасить?
           </h2>
           <p className='text'>
-            Corona viruses are a type of virus. There are many different kinds,
-            and some cause <br /> disease. A newly identified type has caused
+            С помощью нескольких простых мер, которые советует Всемирная
+            организация здравоохранения, <br /> вы можете уменьшить свои шансы
+            заболеть или распространить вирус COVID-19.
           </p>
         </div>
         <div className='protected'>
@@ -21,13 +22,13 @@ export const WhatShouldDo = () => {
             <div className='protected__info'>
               <div className='info-number'>01</div>
               <div className='info-text'>
-                <div className='info-text__title'>Wear Masks</div>
+                <div className='info-text__title'>Наденьте маску</div>
                 <p className='info-text__prgh'>
-                  Continually seize impactful vortals rather than future-proof
-                  supply chains. Uniquely exploit emerging niches via fully
-                  tested meta-services. Competently pursue standards compliant
-                  leadership skills vis-a-vis pandemic `outside the box`
-                  thinking. Objectively
+                  В преддверии сезонного подъёма заболеваемости гриппом и
+                  другими респираторными вирусными инфекциями Роспотребнадзор
+                  напоминает о целесообразности использования одноразовой
+                  медицинской маски в качестве эффективной меры профилактики
+                  заражения и распространения инфекции.
                 </p>
               </div>
             </div>
@@ -50,13 +51,12 @@ export const WhatShouldDo = () => {
             <div className='protected__info'>
               <div className='info-number'>02</div>
               <div className='info-text'>
-                <div className='info-text__title'>Wash Your Hands</div>
+                <div className='info-text__title'>Мойте руки</div>
                 <p className='info-text__prgh'>
-                  Continually seize impactful vortals rather than future-proof
-                  supply chains. Uniquely exploit emerging niches via fully
-                  tested meta-services. Competently pursue standards compliant
-                  leadership skills vis-a-vis pandemic `outside the box`
-                  thinking. Objectively
+                  Гигиена рук — это важная мера профилактики распространения
+                  гриппа и коронавирусной инфекции. Мытье с мылом удаляет
+                  вирусы. Если нет возможности помыть руки с мылом, пользуйтесь
+                  спиртсодержащими или дезинфицирующими салфетками.
                 </p>
               </div>
             </div>
@@ -65,13 +65,14 @@ export const WhatShouldDo = () => {
             <div className='protected__info'>
               <div className='info-number'>03</div>
               <div className='info-text'>
-                <div className='info-text__title'>Use nose - rag</div>
+                <div className='info-text__title'>
+                  Используйте носовой платок
+                </div>
                 <p className='info-text__prgh'>
-                  Continually seize impactful vortals rather than future-proof
-                  supply chains. Uniquely exploit emerging niches via fully
-                  tested meta-services. Competently pursue standards compliant
-                  leadership skills vis-a-vis pandemic `outside the box`
-                  thinking. Objectively
+                  При чихании и кашле желательно использовать бумажные носовые
+                  платки, в противном случае используйте тканевый носовой
+                  платок, но не забывайте стирать его ежедневно и проглаживать с
+                  обеих сторон.
                 </p>
               </div>
             </div>
@@ -94,13 +95,13 @@ export const WhatShouldDo = () => {
             <div className='protected__info'>
               <div className='info-number'>04</div>
               <div className='info-text'>
-                <div className='info-text__title'>Avoid contacts</div>
+                <div className='info-text__title'>Избегайте контакты</div>
                 <p className='info-text__prgh'>
-                  Continually seize impactful vortals rather than future-proof
-                  supply chains. Uniquely exploit emerging niches via fully
-                  tested meta-services. Competently pursue standards compliant
-                  leadership skills vis-a-vis pandemic `outside the box`
-                  thinking. Objectively
+                  Ограничьте по возможности при приветствии тесные объятия и
+                  рукопожатия. Избегайте близких контактов и пребывания в одном
+                  помещении с людьми, имеющими видимые признаки ОРВИ (кашель,
+                  чихание, выделения из носа). Пользуйтесь только
+                  индивидуальными предметами личной гигиены.
                 </p>
               </div>
             </div>

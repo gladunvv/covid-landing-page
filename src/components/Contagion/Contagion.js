@@ -13,8 +13,13 @@ export const Contagion = ({ position }) => {
         <div className='contagion__text'>
           <h2 className='title'>
             <span className='title-orange'>Covid-19 </span> <br />
-            Contagion
+            Пути передачи вируса
           </h2>
+          <p className='text'>
+            Существует несколько путей передачи вируса, чтобы избежать
+            заражения, <br /> необходимо знать о них и сделать максимум для
+            своей безопасности <br /> и безопасности окружающих.
+          </p>
         </div>
 
         <div className='contagion-cards'>
@@ -23,9 +28,9 @@ export const Contagion = ({ position }) => {
               <img src='./static/img/Air.png' alt='Air transmission' />
             </div>
             <div className='card__text'>
-              <div className='card__text-bold'>Air Transmission</div>
-              Objectively evolve tactical expertise before extensible
-              initiatives. Efficiently simplify
+              <div className='card__text-bold'>Воздушно-капельный</div>
+              Один из самых распространенных и быстрых способов передачи
+              инфекционных болезней.
             </div>
           </div>
           <div className='card'>
@@ -33,8 +38,9 @@ export const Contagion = ({ position }) => {
               <img src='./static/img/Contact.png' alt='Air transmission' />
             </div>
             <div className='card__text'>
-              <div className='card__text-bold'>Human Contacts</div>
-              Washing your hands is one of thesimplest ways you can protect
+              <div className='card__text-bold'>Близкий контакт</div>
+              Инфекция передается от больного человека к здоровому при близких
+              контактах.
             </div>
           </div>
           <div className='card'>
@@ -42,9 +48,9 @@ export const Contagion = ({ position }) => {
               <img src='./static/img/Object.png' alt='Air transmission' />
             </div>
             <div className='card__text'>
-              <div className='card__text-bold'>Containted Objects</div>
-              Use the tissue while sneezing,In this way, you can protect your
-              droplets
+              <div className='card__text-bold'>Грязные поверхности</div>
+              Любой предмет общего пользования может быть опасным и нести на
+              себе инфекцию.
             </div>
           </div>
         </div>

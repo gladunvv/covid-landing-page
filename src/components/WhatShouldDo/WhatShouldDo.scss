@@ -9,8 +9,9 @@
       text-align: center;
     }
     .text {
+      font-family: Hero;
       text-align: center;
-      font-size: 24px;
+      font-size: 21px;
       margin: 0;
     }
     margin-bottom: 40px;
@@ -32,8 +33,9 @@
       display: flex;
       width: 670px;
       height: 250px;
-      font-size: 18px;
+      font-size: 21px;
       line-height: 36px;
+      font-family: Hero;
 
       .info-number {
         text-align: center;
@@ -49,11 +51,13 @@
 
       .info-text {
         width: 550px;
-
+        font-family: Hero;
         margin-left: 40px;
 
+
         &__title {
-          font-family: RedHatDisplay;
+          font-family: Bebas;
+          font-weight: bold;
           color: #4b4f51;
           font-size: 47px;
         }

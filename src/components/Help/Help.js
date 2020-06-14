@@ -11,7 +11,7 @@ export const Help = ({ position }) => {
       <div className={classHelp}>
         <div className='help__title'>
           <h2 className='title'>
-            Have Question in mind? <br /> Let us help you
+            У вас остались вопросы ? <br /> Мы постараемся вам помочь
           </h2>
         </div>
         <div className='help-sub'>

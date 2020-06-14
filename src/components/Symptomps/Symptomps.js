@@ -12,12 +12,13 @@ export const Symptomps = ({ position }) => {
         <div className='symptomps__text'>
           <h2 className='title'>
             <span className='title-orange'>Covid-19 </span> <br />
-            Symptomps
+            Симптомы
           </h2>
           <p className='text'>
-            Corona viruses are a type of virus. There are many different kinds,
-            and some cause disease. <br /> A newly identified type has caused a
-            recent outbreak of respiratory
+            Коронавирусная инфекция COVID-19 воздействует на различные группы
+            людей в разной степени. <br/> У большинства инфицированных болезнь
+            протекает в легкой или средней форме тяжести, <br/> и им не требуется
+            госпитализация.
           </p>
         </div>
         <div className='symptomps__img'>

@@ -5,13 +5,14 @@
   text-align: center;
   flex-direction: column;
   &__title {
-      .title {
-          color: #167C51;
-      }
+    .title {
+      font-family: Bebas;
+      color: #167c51;
+    }
   }
-  
+
   &-sub {
-      display: flex;
+    display: flex;
   }
 
   &__post {
@@ -43,9 +44,9 @@
     background: inherit;
     font-family: RedHatDisplay;
     color: #ffffff;
-    background: #F44A45;
+    background: #f44a45;
     font-size: 17px;
-    outline: none; 
+    outline: none;
   }
   &-position {
     margin-bottom: 140px;
