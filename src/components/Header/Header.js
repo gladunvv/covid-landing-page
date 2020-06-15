@@ -1,18 +1,17 @@
 import React from 'react';
-import className from 'classnames';
+import * as cn from 'classnames';
 import { bool } from 'prop-types';
-
 import './Header.scss';
 
 export const Header = ({ position }) => {
-  const headerClass = className('header', { 'covid-header': position });
+  const headerClass = cn('header', { [position]: position });
   return (
     <>
       <div className={headerClass}>
         <div className='header__logo'>
           <img
             alt='covid-19'
-            src='static/img/coronavirus.png'
+            src='./static/img/coronavirus.png'
             className='logo__img'
           />
           <span className='logo__text'>covid-19</span>

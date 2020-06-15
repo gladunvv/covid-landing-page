@@ -14,7 +14,7 @@ export const App = () => {
   return (
     <>
       <div className='content'>
-        <Header position />
+        <Header position='covid-header' />
         <CovidAlert position />
         <WhatIsCovid />
         <Contagion position />
