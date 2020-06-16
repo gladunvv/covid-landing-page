@@ -9,7 +9,7 @@ export const Contagion = ({ position }) => {
   });
   return (
     <>
-      <div className={contagionClass}>
+      <div id='contagion' className={contagionClass}>
         <div className='contagion__text'>
           <h2 className='title'>
             <span className='title-orange'>Covid-19 </span> <br />

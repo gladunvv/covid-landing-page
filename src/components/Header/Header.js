@@ -17,10 +17,26 @@ export const Header = ({ position }) => {
           <span className='logo__text'>covid-19</span>
         </div>
         <ul className='header__menu'>
-          <li className='tab'>Overview</li>
-          <li className='tab'>Contagion</li>
-          <li className='tab'>Symptoms</li>
-          <li className='tab'>Prevention</li>
+          <li className='tab'>
+            <a className='tab-link' href='#overview'>
+              Общая информация
+            </a>
+          </li>
+          <li className='tab'>
+            <a className='tab-link' href='#contagion'>
+              Пути передачи
+            </a>
+          </li>
+          <li className='tab'>
+            <a className='tab-link' href='#symptomps'>
+              Симптомы
+            </a>
+          </li>
+          <li className='tab'>
+            <a className='tab-link' href='#protection'>
+              Способы защиты
+            </a>
+          </li>
         </ul>
       </div>
     </>

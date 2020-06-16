@@ -10,7 +10,7 @@ export const WhatIsCovid = ({ position }) => {
   });
   return (
     <>
-      <div className={WhatIsClass}>
+      <div id='overview' className={WhatIsClass}>
         <img
           className='what-is-covid__img'
           src='static/img/corona_cloud.png'

@@ -1,4 +1,9 @@
 import React from 'react';
+import { FacebookIcon } from '../icons/FacebookIcon';
+import { YouTubeIcon } from '../icons/YouTubeIcon';
+import { VimeoIcon } from '../icons/VimeoIcon';
+import { TwitterIcon } from '../icons/TwitterIcon';
+
 import cn from 'classnames';
 import { string } from 'prop-types';
 
@@ -17,12 +22,44 @@ export const Footer = ({ position }) => {
           />
           <span className='logo__text'>covid-19</span>
         </div>
-        <ul className='footer__menu'>
-          <li className='tab'>Overview</li>
-          <li className='tab'>Contagion</li>
-          <li className='tab'>Symptoms</li>
-          <li className='tab'>Prevention</li>
-        </ul>
+        <div className='menu'>
+          <ul className='footer__menu'>
+            <li className='tab'>
+              <a className='tab-link' href='#overview'>
+                Общая информация
+              </a>
+            </li>
+            <li className='tab'>
+              <a className='tab-link' href='#contagion'>
+                Пути передачи
+              </a>
+            </li>
+            <li className='tab'>
+              <a className='tab-link' href='#symptomps'>
+                Симптомы
+              </a>
+            </li>
+            <li className='tab'>
+              <a className='tab-link' href='#protection'>
+                Способы защиты
+              </a>
+            </li>
+          </ul>
+          <ul className='footer__socials'>
+            <li className='social-tab'>
+              <FacebookIcon />
+            </li>
+            <li className='social-tab'>
+              <VimeoIcon />
+            </li>
+            <li className='social-tab'>
+              <YouTubeIcon />
+            </li>
+            <li className='social-tab'>
+              <TwitterIcon />
+            </li>
+          </ul>
+        </div>
       </div>
     </>
   );

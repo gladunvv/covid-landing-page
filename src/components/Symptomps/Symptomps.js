@@ -8,7 +8,7 @@ export const Symptomps = ({ position }) => {
   const symptomClass = cn('symptomps', { [position]: position });
   return (
     <>
-      <div className={symptomClass}>
+      <div id='symptomps' className={symptomClass}>
         <div className='symptomps__text'>
           <h2 className='title'>
             <span className='title-orange'>Covid-19 </span> <br />

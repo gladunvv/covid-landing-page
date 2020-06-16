@@ -5,7 +5,7 @@ import './WhatShouldDo.scss';
 export const WhatShouldDo = () => {
   return (
     <>
-      <div className='what-should-do'>
+      <div id='protection' className='what-should-do'>
         <div className='what-should-do__text'>
           <h2 className='title'>
             <span className='title-orange'>Covid-19 </span> <br />

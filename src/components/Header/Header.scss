@@ -1,39 +1,42 @@
 .header {
   display: flex;
   justify-content: space-between;
-  
+
   &__logo {
     display: flex;
     align-items: center;
   }
 
   &__menu {
-    font-family: Jost;
+    font-family: Hero;
     display: flex;
     align-items: center;
     font-size: 18px;
-    
+
     .tab {
       margin-right: 45px;
-      transition: 0.3s;
       list-style: none;
+      &-link {
+        transition: 0.3s;
+        text-decoration: none;
+        color: #035755;
+
+        &:hover {
+          cursor: pointer;
+          color: #fa5652;
+        }
+      }
 
       &:last-child {
         margin-right: 0;
       }
-
-      &:hover {
-        cursor: pointer;
-        color: #fa5652;
-      }
     }
   }
-  
+
   &-position {
     margin-top: 35px;
   }
 }
-
 
 .logo {
   &__text {
