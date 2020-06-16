@@ -14,14 +14,14 @@ export const App = () => {
   return (
     <>
       <div className='content'>
-        <Header position='covid-header' />
-        <CovidAlert position />
+        <Header position='header-position' />
+        <CovidAlert position='covid-alert-position' />
         <WhatIsCovid />
-        <Contagion position />
-        <Symptomps position />
+        <Contagion position='contagion-position' />
+        <Symptomps position='symptomps-position' />
         <WhatShouldDo />
-        <Help position />
-        <Footer position />
+        <Help position='help-position' />
+        <Footer position='footer-position' />
       </div>
     </>
   );

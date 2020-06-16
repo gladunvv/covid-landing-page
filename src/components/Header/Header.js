@@ -1,6 +1,6 @@
 import React from 'react';
-import * as cn from 'classnames';
-import { bool } from 'prop-types';
+import cn from 'classnames';
+import { string } from 'prop-types';
 import './Header.scss';
 
 export const Header = ({ position }) => {
@@ -28,5 +28,5 @@ export const Header = ({ position }) => {
 };
 
 Header.propTypes = {
-  position: bool,
+  position: string,
 };

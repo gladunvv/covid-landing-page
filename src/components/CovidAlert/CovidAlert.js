@@ -1,14 +1,14 @@
 import React from 'react';
-import className from 'classnames';
-import { bool } from 'prop-types';
+import cn from 'classnames';
+import { string } from 'prop-types';
 import './CovidAlert.scss';
 
 export const CovidAlert = ({ position }) => {
-  const alertClass = className('stay-at-home', { 'covid-alert': position });
+  const alertClass = cn('covid-alert', { [position]: position });
   return (
     <>
       <div className={alertClass}>
-        <div className='stay-at-home__text'>
+        <div className='covid-alert__text'>
           <h2 className='title'>
             <span className='title-orange'>COVID-19 Alert</span> <br />
             Соблюдайте режим самоизоляции <br /> Помогите остановить коронавирус
@@ -20,7 +20,7 @@ export const CovidAlert = ({ position }) => {
           </p>
         </div>
         <img
-          className='stay-at-home__img'
+          className='covid-alert__img'
           src='static/img/Girl.png'
           alt='girl on sofa'
         />
@@ -30,5 +30,5 @@ export const CovidAlert = ({ position }) => {
 };
 
 CovidAlert.propTypes = {
-  position: bool,
+  position: string,
 };

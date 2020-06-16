@@ -1,11 +1,11 @@
 import React from 'react';
-import className from 'classnames';
-import { bool } from 'prop-types';
+import cn from 'classnames';
+import { string } from 'prop-types';
 
 import './Help.scss';
 
 export const Help = ({ position }) => {
-  const classHelp = className('help', { 'help-position': position });
+  const classHelp = cn('help', { [position]: position });
   return (
     <>
       <div className={classHelp}>
@@ -30,5 +30,5 @@ export const Help = ({ position }) => {
 };
 
 Help.propTypes = {
-  position: bool,
+  position: string,
 };

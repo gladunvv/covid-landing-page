@@ -1,4 +1,4 @@
-.stay-at-home {
+.covid-alert {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,8 +12,8 @@
   &__img {
     width: 680px;
   }
-}
 
-.covid-alert {
+  &-position {
     margin-top: 35px;
+  }
 }

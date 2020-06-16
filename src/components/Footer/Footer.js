@@ -1,11 +1,11 @@
 import React from 'react';
-import className from 'classnames';
-import { bool } from 'prop-types';
+import cn from 'classnames';
+import { string } from 'prop-types';
 
 import './Footer.scss';
 
 export const Footer = ({ position }) => {
-  const footerClass = className('footer', { 'footer-position': position });
+  const footerClass = cn('footer', { [position]: position });
   return (
     <>
       <div className={footerClass}>
@@ -29,5 +29,5 @@ export const Footer = ({ position }) => {
 };
 
 Footer.propTypes = {
-  position: bool,
+  position: string,
 };

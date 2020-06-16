@@ -1,11 +1,11 @@
 import React from 'react';
-import className from 'classnames';
-import { bool } from 'prop-types';
+import cn from 'classnames';
+import { string } from 'prop-types';
 import './Contagion.scss';
 
 export const Contagion = ({ position }) => {
-  const contagionClass = className('contagion', {
-    'covid-contagion': position,
+  const contagionClass = cn('contagion', {
+    [position]: position,
   });
   return (
     <>
@@ -60,5 +60,5 @@ export const Contagion = ({ position }) => {
 };
 
 Contagion.propTypes = {
-  position: bool,
+  position: string,
 };

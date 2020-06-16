@@ -1,11 +1,11 @@
 import React from 'react';
-import className from 'classnames';
-import { bool } from 'prop-types';
+import cn from 'classnames';
+import { string } from 'prop-types';
 
 import './Symptomps.scss';
 
 export const Symptomps = ({ position }) => {
-  const symptomClass = className('symptomps', { 'covid-symptomps': position });
+  const symptomClass = cn('symptomps', { [position]: position });
   return (
     <>
       <div className={symptomClass}>
@@ -16,9 +16,9 @@ export const Symptomps = ({ position }) => {
           </h2>
           <p className='text'>
             Коронавирусная инфекция COVID-19 воздействует на различные группы
-            людей в разной степени. <br/> У большинства инфицированных болезнь
-            протекает в легкой или средней форме тяжести, <br/> и им не требуется
-            госпитализация.
+            людей в разной степени. <br /> У большинства инфицированных болезнь
+            протекает в легкой или средней форме тяжести, <br /> и им не
+            требуется госпитализация.
           </p>
         </div>
         <div className='symptomps__img'>
@@ -39,5 +39,5 @@ export const Symptomps = ({ position }) => {
 };
 
 Symptomps.propTypes = {
-  position: bool,
+  position: string,
 };
