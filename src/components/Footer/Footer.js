@@ -1,8 +1,8 @@
 import React from 'react';
-import { FacebookIcon } from '../icons/FacebookIcon';
-import { YouTubeIcon } from '../icons/YouTubeIcon';
-import { VimeoIcon } from '../icons/VimeoIcon';
-import { TwitterIcon } from '../icons/TwitterIcon';
+import { FacebookIcon } from '../../icons/FacebookIcon';
+import { YouTubeIcon } from '../../icons/YouTubeIcon';
+import { VimeoIcon } from '../../icons/VimeoIcon';
+import { TwitterIcon } from '../../icons/TwitterIcon';
 
 import cn from 'classnames';
 import { string } from 'prop-types';
