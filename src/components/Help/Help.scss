@@ -38,7 +38,6 @@
       height: 38px;
       border: none;
       outline: none;
-
     }
   }
 
@@ -63,5 +62,35 @@
 
   &-position {
     margin-bottom: 140px;
+  }
+
+  @media screen and (max-width: 800px) {
+    &__title {
+      .title {
+        font-size: 27px;
+      }
+    }
+
+    &__post {
+      width: 270px;
+      height: 33px;
+
+      .email-input {
+        font-size: 17px;
+        margin-left: 10px;
+        width: 250px;
+        height: 20px;
+      }
+    }
+
+    &__button {
+      width: 90px;
+      height: 35px;
+      font-size: 14px;
+    }
+
+    &-position {
+      margin-bottom: 40px;
+    }
   }
 }

@@ -19,4 +19,7 @@ html {
 .content {
   margin: 0 auto;
   width: 1290px;
+  @media screen and (max-width: 800px) {
+    width: 100vw;
+  }
 }

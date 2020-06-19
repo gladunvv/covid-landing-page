@@ -25,7 +25,11 @@ export const Contagion = ({ position }) => {
         <div className='contagion-cards'>
           <div className='card'>
             <div className='card__img'>
-              <img src='./static/img/Air.png' alt='Air transmission' />
+              <img
+                className='card__img-mobile'
+                src='./static/img/Air.png'
+                alt='Air transmission'
+              />
             </div>
             <div className='card__text'>
               <div className='card__text-bold'>Воздушно-капельный</div>
@@ -35,7 +39,11 @@ export const Contagion = ({ position }) => {
           </div>
           <div className='card'>
             <div className='card__img'>
-              <img src='./static/img/Contact.png' alt='Air transmission' />
+              <img
+                className='card__img-mobile'
+                src='./static/img/Contact.png'
+                alt='Air transmission'
+              />
             </div>
             <div className='card__text'>
               <div className='card__text-bold'>Близкий контакт</div>
@@ -45,7 +53,11 @@ export const Contagion = ({ position }) => {
           </div>
           <div className='card'>
             <div className='card__img'>
-              <img src='./static/img/Object.png' alt='Air transmission' />
+              <img
+                className='card__img-mobile'
+                src='./static/img/Object.png'
+                alt='Air transmission'
+              />
             </div>
             <div className='card__text'>
               <div className='card__text-bold'>Грязные поверхности</div>

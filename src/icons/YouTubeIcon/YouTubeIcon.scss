@@ -6,4 +6,8 @@
     fill: red;
     cursor: pointer;
   }
+
+  @media screen and (max-width: 800px) {
+    height: 35px;
+  }
 }

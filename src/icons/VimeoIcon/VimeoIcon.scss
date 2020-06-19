@@ -6,4 +6,8 @@
     fill: #41c3ed;
     cursor: pointer;
   }
+
+  @media screen and (max-width: 800px) {
+    width: 34px;
+  }
 }

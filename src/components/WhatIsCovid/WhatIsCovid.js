@@ -29,6 +29,11 @@ export const WhatIsCovid = ({ position }) => {
             ‎специфического лечения. ‎
           </p>
         </div>
+        <img
+          className='what-is-covid__img-mobile'
+          src='static/img/corona_cloud.png'
+          alt='corona'
+        />
       </div>
     </>
   );

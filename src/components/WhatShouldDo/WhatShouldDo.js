@@ -32,6 +32,13 @@ export const WhatShouldDo = () => {
                 </p>
               </div>
             </div>
+            <div className='protected__img mobile'>
+              <img
+                className='protected-girl'
+                src='./static/img/Mask.png'
+                alt='Mask'
+              />
+            </div>
             <div className='protected__img'>
               <img
                 className='protected-girl'
@@ -60,6 +67,13 @@ export const WhatShouldDo = () => {
                 </p>
               </div>
             </div>
+            <div className='protected__img mobile'>
+              <img
+                className='protected-girl'
+                src='./static/img/WashHand.png'
+                alt='WashHand'
+              />
+            </div>
           </div>
           <div className='protected__item'>
             <div className='protected__info'>
@@ -75,6 +89,13 @@ export const WhatShouldDo = () => {
                   обеих сторон.
                 </p>
               </div>
+            </div>
+            <div className='protected__img mobile'>
+              <img
+                className='protected-girl'
+                src='./static/img/Rag.png'
+                alt='Nose Rag'
+              />
             </div>
             <div className='protected__img'>
               <img
@@ -104,6 +125,13 @@ export const WhatShouldDo = () => {
                   индивидуальными предметами личной гигиены.
                 </p>
               </div>
+            </div>
+            <div className='protected__img mobile'>
+              <img
+                className='protected-girl'
+                src='./static/img/ContactGirl.png'
+                alt='Contact'
+              />
             </div>
           </div>
         </div>

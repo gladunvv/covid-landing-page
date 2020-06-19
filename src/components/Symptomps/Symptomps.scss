@@ -32,6 +32,35 @@
     }
   }
 
+  @media screen and (max-width: 800px) {
+    &__text {
+      align-items: flex-start;
+      margin-left: 20px;
+      margin-right: 20px;
+
+      .title {
+        text-align: start;
+        font-size: 31px;
+
+        &-orange {
+          font-size: 17px;
+        }
+      }
+      .text {
+        text-align: start;
+      }
+    }
+    .img-smpt-bg {
+      position: absolute;
+      width: 280px;
+      z-index: -1;
+    }
+    .img-smpt {
+      width: 390px;
+      margin-top: 50px;
+    }
+  }
+
   &-position {
     margin-bottom: 100px;
   }

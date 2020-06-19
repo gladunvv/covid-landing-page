@@ -7,10 +7,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
   position: relative;
   background: #fcf5f5;
-
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
 }
