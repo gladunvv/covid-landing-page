@@ -77,9 +77,7 @@
       margin-right: 20px;
 
       .text {
-        font-family: Hero;
         text-align: start;
-        font-size: 21px;
       }
 
       .title {
@@ -93,41 +91,29 @@
     }
 
     .protected {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
 
       &__item {
         width: 400px;
-        display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
 
 
       }
       &__info {
-        display: flex;
+        margin: 0 auto;
         flex-direction: column;
-        width: 400px;
+        width: 360px;
         height: 100%;
-        font-size: 21px;
         line-height: 30px;
-        font-family: Hero;
 
         .info-number {
           margin-left: 20px;
           margin-bottom: 14px;
           text-align: center;
-          font-family: RedHatDisplay;
           font-size: 44px;
-          color: #fa5652;
-          background: #f5bcba;
           border-radius: 50%;
           width: 70px;
           height: 70px;
-          line-height: 70px;
         }
 
         .info-text {
@@ -136,8 +122,8 @@
           margin: 0 20px;
 
           &__prgh {
-            margin: 0 auto;
-            width: 400;
+            margin: 0;
+            width: 350px;
           }
 
           &__title {
